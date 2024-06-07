@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 5rem;
+  color: white;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+p {
+  color: black;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* footer { Arrumar o footer pra utilizar ainda..
+  background-color: blue;
+  height: 80px;
+  width: 160px;
+  position: relative; 
+  text-align: center;
+  z-index: 999;
+  margin: 0 auto;
+} */
+
+.div1 {
+  background-color: #0077be;
+  text-align: center;
+}
+
+.logoh1 {
+  width: 150px;
+  vertical-align: middle;
+}
+
+.imgbn {
+  width: 100%;
+  height: 400px;
+  background: url(https://i.guim.co.uk/img/media/f5108293ddff6c1b5887c80194b9a110d6c13258/0_739_3898_2339/master/3898.jpg?width=1900&dpr=1&s=none)
+    center center no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
+  display: flex;
+  align-items: auto;
+  justify-content: auto;
+}
+
+.divimginside {
+  width: 25%;
+  min-width: 300px;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-left: 70px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div2 {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.div2 a {
+  color: #000000;
+  position: relative;
+  text-decoration: none;
+}
+
+.div3 {
+  background: #f4e5c3;
+  text-align: center;
+  padding: 14px 175px;
+}
+
+.div4 {
+  background: mintcream;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 7px;
+  border: black 1px solid;
+  text-align: left;
+  line-height: 20px;
+}
+
+.painav1 {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+}
+
+.divnav1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 1200px;
+  background: lightgrey;
+}
+
+.sect1nav {
+  position: relative;
+  width: 750px;
+  height: 200px;
+  margin: 40px 0;
+  border: 2px solid #0077be;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.backimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.textoverlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f0f0f0;
+  z-index: 2;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.navdivtitle {
+  background-color: white;
+  width: 700px;
+  height: 300px;
+  border-radius: 5px;
+  border: 1px solid #0077be;
+  padding: 5px;
+}
+
+.h2nav {
+  padding: 15px;
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+}
+
+.pnav {
+  padding: 0px 10px;
+  font-size: 1rem;
+  color: black;
+  text-align: left;
+}
+
+#meio {
+  text-align: center;
+}
+
+#right {
+  text-align: right;
+}
+
+#divimginside {
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+#h3divimg,
+#h3divimg2 {
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+#h3divimg {
+  padding-top: 10px;
+}
+
+/*card/boxes*/
+.donateBoxgeneral {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.donateBoxunique {
+  margin: 10px;
+  background-color: rgb(195, 201, 226);
+  color: black;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  text-align: center;
+}
+
+.donateBoxunique > h1 {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-width: 0.8px;
+}
+
+.donateBoxunique > img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pressDonate {
+  padding: 5px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: #008cff;
+  color: rgb(0, 0, 0);
+  font-weight: 500px; /* nao pegou pq tem uma fonte como mae (alterar dps) */
+  transition: 0.7s background;
+  cursor: pointer;
+}
+
+.pressDonate:hover {
+  background-color: aqua;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#fontdonate,
+#fontdonate2,
+#fontdonate3 {
+  font-size: 18px;
+  text-align: left;
+  padding: 15px 5px;
+}
+
+#fontdonate2 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#fontdonate3 {
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+  .divimginside {
+    width: 50%;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  #divimginside {
+    font-size: 18px;
+  }
+
+  #h3divimg,
+  #h3divimg2 {
+    font-size: 17px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .divimginside {
+    width: 60%;
+    padding: 10px;
+  }
+
+  #divimginside {
+    font-size: 20px;
+  }
+
+  #h3divimg,
+  #h3divimg2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .divimginside {
+    width: 100%;
+    padding: 10px;
+    margin-left: 0;
+  }
+
+  #divimginside {
+    font-size: 18px;
+  }
+
+  #h3divimg,
+  #h3divimg2 {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .divimginside {
+    width: 100%;
+    padding: 5px;
+    margin-left: 0;
+  }
+
+  #divimginside {
+    font-size: 16px;
+  }
+
+  #h3divimg,
+  #h3divimg2 {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .logoh1 {
+    width: 80px;
+  }
+
+  h1 {
+    align-items: center;
+    font-size: 2.8rem;
+    margin-right: 30px;
+  }
+}
