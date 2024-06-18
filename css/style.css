@@ -676,6 +676,48 @@ select {
     min-width: 0px;
     min-width: 320px !important;
   }
+
+  .container .boxHelped .boxContent {
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; 
+    transform: none; 
+    transition: none; 
+  }
+
+  .container .boxHelped .boxContent h2,
+  .container .boxHelped .boxContent h3,
+  .container .boxHelped .boxContent p,
+  .container .boxHelped .boxContent a {
+    opacity: 1;
+    transform: none; 
+  }
+
+  .container .boxHelped .boxContent h2 {
+    font-size: 1.5em; 
+    color: rgba(0, 255, 204, 0.9);
+    pointer-events: none;
+  }
+
+  .container .boxHelped .boxContent h3 {
+    font-size: 1.2em;
+    z-index: 1;
+  }
+
+  .container .boxHelped .boxContent p {
+    font-size: 1em;
+    font-weight: 450;
+  }
+
+  .container .boxHelped .boxContent a {
+    color: rgb(66, 155, 223);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
   .geral {
     min-width: 0px;
     max-width: 320px;
@@ -809,6 +851,48 @@ select {
     box-sizing: border-box;
     overflow: hiden;
   }
+
+  .container .boxHelped .boxContent {
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; 
+    transform: none; 
+    transition: none; 
+  }
+
+  .container .boxHelped .boxContent h2,
+  .container .boxHelped .boxContent h3,
+  .container .boxHelped .boxContent p,
+  .container .boxHelped .boxContent a {
+    opacity: 1;
+    transform: none; 
+  }
+
+  .container .boxHelped .boxContent h2 {
+    font-size: 1.5em; 
+    color: rgba(0, 255, 204, 0.9);
+    pointer-events: none;
+  }
+
+  .container .boxHelped .boxContent h3 {
+    font-size: 1.2em;
+    z-index: 1;
+  }
+
+  .container .boxHelped .boxContent p {
+    font-size: 1em;
+    font-weight: 450;
+  }
+
+  .container .boxHelped .boxContent a {
+    color: rgb(66, 155, 223);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
   /*   CLASSE SUPREMA */
   .geral {
     overflow: visible;
@@ -916,6 +1000,48 @@ select {
     box-sizing: border-box;
     overflow: hiden;
   }
+
+  .container .boxHelped .boxContent {
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1; 
+    transform: none; 
+    transition: none; 
+  }
+
+  .container .boxHelped .boxContent h2,
+  .container .boxHelped .boxContent h3,
+  .container .boxHelped .boxContent p,
+  .container .boxHelped .boxContent a {
+    opacity: 1;
+    transform: none; 
+  }
+
+  .container .boxHelped .boxContent h2 {
+    font-size: 1.5em; 
+    color: rgba(0, 255, 204, 0.9);
+    pointer-events: none;
+  }
+
+  .container .boxHelped .boxContent h3 {
+    font-size: 1.2em;
+    z-index: 1;
+  }
+
+  .container .boxHelped .boxContent p {
+    font-size: 1em;
+    font-weight: 450;
+  }
+
+  .container .boxHelped .boxContent a {
+    color: rgb(66, 155, 223);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
   /*   CLASSE SUPREMA */
   .geral {
     overflow: visible;
