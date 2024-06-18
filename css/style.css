@@ -562,7 +562,7 @@ footer a:hover {
 
 /* Box Gabriel */
 .frontG {
-  background-image: url(../imgs/gabrielabout.jpeg);
+  background-image: url(/imgs/gabrielabout.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -570,7 +570,7 @@ footer a:hover {
 
 /* Box Pedro */
 .frontP {
-  background-image: url(../imgs/pedroabout.png);
+  background-image: url(/imgs/pedroabout.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -578,7 +578,7 @@ footer a:hover {
 
 /* Box Thiago */
 .frontT {
-  background-image: url(../imgs/thiagoabout.jpeg);
+  background-image: url(/imgs/thiagoabout.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -677,47 +677,6 @@ select {
     min-width: 320px !important;
   }
 
-  .container .boxHelped .boxContent {
-    padding: 20px;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 1; 
-    transform: none; 
-    transition: none; 
-  }
-
-  .container .boxHelped .boxContent h2,
-  .container .boxHelped .boxContent h3,
-  .container .boxHelped .boxContent p,
-  .container .boxHelped .boxContent a {
-    opacity: 1;
-    transform: none; 
-  }
-
-  .container .boxHelped .boxContent h2 {
-    font-size: 1.5em; 
-    color: rgba(0, 255, 204, 0.9);
-    pointer-events: none;
-  }
-
-  .container .boxHelped .boxContent h3 {
-    font-size: 1.2em;
-    z-index: 1;
-  }
-
-  .container .boxHelped .boxContent p {
-    font-size: 1em;
-    font-weight: 450;
-  }
-
-  .container .boxHelped .boxContent a {
-    color: rgb(66, 155, 223);
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
   .geral {
     min-width: 0px;
     max-width: 320px;
@@ -738,6 +697,47 @@ select {
     max-width: 480px !important;
     width: 100%;
     box-sizing: border-box;
+  }
+
+  .container .boxHelped .boxContent {
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .container .boxHelped .boxContent h2,
+  .container .boxHelped .boxContent h3,
+  .container .boxHelped .boxContent p,
+  .container .boxHelped .boxContent a {
+    opacity: 1;
+    transform: none;
+  }
+
+  .container .boxHelped .boxContent h2 {
+    font-size: 1.5em;
+    color: rgba(0, 255, 204, 0.9);
+    pointer-events: none;
+  }
+
+  .container .boxHelped .boxContent h3 {
+    font-size: 1.2em;
+    z-index: 1;
+  }
+
+  .container .boxHelped .boxContent p {
+    font-size: 1em;
+    font-weight: 450;
+  }
+
+  .container .boxHelped .boxContent a {
+    color: rgb(66, 155, 223);
+    text-decoration: none;
+    font-weight: 600;
   }
 
   .ods {
@@ -775,6 +775,36 @@ select {
     width: 300px;
     position: relative;
     margin: auto;
+    transition: none !important;
+    transform: none !important;
+  }
+
+  .boxTwo .photo-name2 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .boxTwo .photo-name {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 2;
   }
 
   .frontG,
@@ -851,6 +881,40 @@ select {
     box-sizing: border-box;
     overflow: hiden;
   }
+  /*   CLASSE SUPREMA */
+  .geral {
+    overflow: visible;
+    min-width: 481px;
+    max-width: 768px;
+  }
+
+  .boxTwo .photo-name2 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .boxTwo .photo-name {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 2;
+  }
 
   .container .boxHelped .boxContent {
     padding: 20px;
@@ -858,9 +922,9 @@ select {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 1; 
-    transform: none; 
-    transition: none; 
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 
   .container .boxHelped .boxContent h2,
@@ -868,11 +932,11 @@ select {
   .container .boxHelped .boxContent p,
   .container .boxHelped .boxContent a {
     opacity: 1;
-    transform: none; 
+    transform: none;
   }
 
   .container .boxHelped .boxContent h2 {
-    font-size: 1.5em; 
+    font-size: 1.5em;
     color: rgba(0, 255, 204, 0.9);
     pointer-events: none;
   }
@@ -892,13 +956,7 @@ select {
     text-decoration: none;
     font-weight: 600;
   }
-  
-  /*   CLASSE SUPREMA */
-  .geral {
-    overflow: visible;
-    min-width: 481px;
-    max-width: 768px;
-  }
+
   .imgbn {
     min-width: 481px;
     max-width: 768px;
@@ -962,6 +1020,8 @@ select {
     width: 300px;
     position: relative;
     margin: auto;
+    transition: none !important;
+    transform: none !important;
   }
 
   .frontG,
@@ -1000,6 +1060,40 @@ select {
     box-sizing: border-box;
     overflow: hiden;
   }
+  /*   CLASSE SUPREMA */
+  .geral {
+    overflow: visible;
+    min-width: 769px;
+    max-width: 1024px;
+  }
+
+  .boxTwo .photo-name2 {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 2;
+  }
+
+  .boxTwo .photo-name {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    z-index: 2;
+  }
 
   .container .boxHelped .boxContent {
     padding: 20px;
@@ -1007,9 +1101,9 @@ select {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 1; 
-    transform: none; 
-    transition: none; 
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 
   .container .boxHelped .boxContent h2,
@@ -1017,11 +1111,11 @@ select {
   .container .boxHelped .boxContent p,
   .container .boxHelped .boxContent a {
     opacity: 1;
-    transform: none; 
+    transform: none;
   }
 
   .container .boxHelped .boxContent h2 {
-    font-size: 1.5em; 
+    font-size: 1.5em;
     color: rgba(0, 255, 204, 0.9);
     pointer-events: none;
   }
@@ -1041,13 +1135,7 @@ select {
     text-decoration: none;
     font-weight: 600;
   }
-  
-  /*   CLASSE SUPREMA */
-  .geral {
-    overflow: visible;
-    min-width: 769px;
-    max-width: 1024px;
-  }
+
   .imgbn {
     min-width: 769px;
     max-width: 1024px;
@@ -1111,6 +1199,8 @@ select {
     width: 600px;
     position: relative;
     margin: auto;
+    transform: none !important;
+    transition: none !important;
   }
 
   .back {
