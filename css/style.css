@@ -570,7 +570,7 @@ footer a:hover {
 
 /* Box Gabriel */
 .frontG {
-  background-image: url(/imgs/gabrielabout.jpeg);
+  background-image: url(./imgs/gabrielabout.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -578,7 +578,7 @@ footer a:hover {
 
 /* Box Pedro */
 .frontP {
-  background-image: url(/imgs/pedroabout.png);
+  background-image: url(./imgs/pedroabout.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -586,7 +586,7 @@ footer a:hover {
 
 /* Box Thiago */
 .frontT {
-  background-image: url(/imgs/thiagoabout.jpeg);
+  background-image: url(./imgs/thiagoabout.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
