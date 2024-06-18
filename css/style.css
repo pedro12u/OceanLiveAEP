@@ -61,6 +61,14 @@ footer a:hover {
   border-radius: 25px;
 }
 
+.boxTwo > .photo-name2 {
+  display: none;
+}
+
+.boxTwo > .photo-name {
+  display: none;
+}
+
 /* ESTILOS DOS POPUPS */
 .popup {
   display: none;
@@ -780,6 +788,7 @@ select {
   }
 
   .boxTwo .photo-name2 {
+    display: block;
     position: absolute;
     top: 200px;
     left: 50%;
@@ -794,6 +803,7 @@ select {
   }
 
   .boxTwo .photo-name {
+    display: block;
     position: absolute;
     top: 10px;
     left: 50%;
@@ -889,6 +899,7 @@ select {
   }
 
   .boxTwo .photo-name2 {
+    display: block;
     position: absolute;
     top: 200px;
     left: 50%;
@@ -903,6 +914,7 @@ select {
   }
 
   .boxTwo .photo-name {
+    display: block;
     position: absolute;
     top: 10px;
     left: 50%;
@@ -1068,6 +1080,7 @@ select {
   }
 
   .boxTwo .photo-name2 {
+    display: block;
     position: absolute;
     top: 200px;
     left: 50%;
@@ -1082,6 +1095,7 @@ select {
   }
 
   .boxTwo .photo-name {
+    display: block;
     position: absolute;
     top: 10px;
     left: 50%;
